@@ -136,7 +136,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
         const menuju = `${jhari}Hari ${jjam}Jam ${mmmenit}Menit ${ddetik}Detik`
         
         //buttons Tambahan
-        const ntiktok = ('© AdrianTzy')
+        const ntiktok = ('© ZurrDev')
         const ini_mark = `0@s.whatsapp.net`
         const ownernya = ownernomer + '@s.whatsapp.net'
         
@@ -154,7 +154,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
             thumbnail: thumb,
             surface: 200,
             message: `${ttname}`,
-            orderTitle: 'AdrianTzy',
+            orderTitle: 'ZurrDev',
             sellerJid: '0@s.whatsapp.net'
         }
     },
@@ -265,7 +265,7 @@ const fgclink = {
     },
     "message": {
         "groupInviteMessage": {
-            "groupJid": "6288213840883-1616169743@g.us",
+            "groupJid": "6281211037493-1616169743@g.us",
             "inviteCode": "m",
             "groupName": `${ttname}`,
             "caption": `${ttname}`,
@@ -6931,7 +6931,7 @@ ${readmore}
  ❐ Name : ${pushname}
  ❐ Number : ${m.sender.split('@')[0]}
  ❐ Status : ${isCreator ? "Owner 👑️":"User ⚔️"}
- ❐ User : ${isPremium ? 'Premium 👑' : 'Gratisan 🗿'}
+ ❐ User : ${isPremium ? 'Premium 👑' : 'Gratisan :v🗿'}
  ❐ Limit : ${isCreator ? 'Unlimited 👑' : `${db.data.users[m.sender].limit}`}
 
 「 INFO BOT 」
@@ -7472,7 +7472,7 @@ ${prefix}wallhp`
             break
                     case 'totalfitur':
                     case 'fitur': {
-                    let anu = `Total Fitur AdrianTzy Adalah ${totalFitur()}`
+                    let anu = `Total Fitur ZurrXz Adalah ${totalFitur()}`
                     conn.sendMessage(m.chat, { image: thumb, caption: anu }, { qouted: fkontak })
                     }
                     break
